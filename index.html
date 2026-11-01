@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandung Side Quest — XAL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-decoration">✳</div>
+
+  <main class="container">
+
+    <!-- INVITATION -->
+    <section id="invitation" class="invitation">
+      <div class="top-label">AN UNOFFICIAL BANDUNG PLAN / 2026</div>
+
+      <div class="envelope">
+        <div class="letter-top">
+          <span>PERSONAL INVITATION</span>
+          <span>NO. 001</span>
+        </div>
+
+        <div class="letter-content">
+          <div class="flower">✿</div>
+          <p class="small-heading">TO SOMEONE FROM PALEMBANG</p>
+
+          <h1>Let's get<br><i>lost</i> in Bandung.</h1>
+
+          <div class="letter-line"></div>
+
+          <p>
+            You've got a city to explore, and I've got a list
+            of places we should probably check out.
+          </p>
+
+          <p>
+            Good food, random walks, coffee stops,
+            photobooth moments, and whatever else
+            the day brings.
+          </p>
+
+          <p>
+            No strict schedule. No pressure.
+            Just you, me, and a little Bandung adventure.
+          </p>
+
+          <div class="letter-sign">
+            <span>See you around,</span>
+            <strong>XAL</strong>
+          </div>
+        </div>
+
+        <div class="letter-bottom">
+          <span>BANDUNG, WEST JAVA</span>
+          <span>✳ 06°54' S</span>
+        </div>
+      </div>
+
+      <div class="invitation-bottom">
+        <p>Ready for a little adventure?</p>
+        <button onclick="openItinerary()">
+          GO, SURE I DO! <span>↗</span>
+        </button>
+        <small>PLEASE DON'T TAKE THIS TOO SERIOUSLY.</small>
+      </div>
+    </section>
+
+
+    <!-- CHECKLIST -->
+    <section id="itinerary" class="itinerary hidden">
+
+      <header class="main-header">
+        <div class="header-top">
+          <span>FIELD NOTES / 001</span>
+          <span>BANDUNG, ID</span>
+        </div>
+
+        <div class="title-area">
+          <div>
+            <p class="small-heading">THE CITY EXPLORATION PROJECT</p>
+            <h1>Bandung<br><i>Side Quest.</i></h1>
+          </div>
+          <div class="cat-sticker">🐈</div>
+        </div>
+
+        <p class="header-description">
+          A collection of places, food stops, and little adventures.
+          Pick whatever sounds good.
+        </p>
+      </header>
+
+      <div class="notice">
+        <span>✳</span>
+        <p>Not a fixed itinerary. Unchecked places are just waiting for another time.</p>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <p class="small-heading">YOUR LITTLE TO-DO LIST</p>
+          <h2>Places to explore</h2>
+        </div>
+        <span class="list-count">13 SPOTS</span>
+      </div>
+
+      <div id="placeList" class="place-list"></div>
+
+      <footer>
+        <div class="footer-symbol">✳</div>
+        <p>THE PLAN IS SIMPLE.</p>
+        <h2>Let's see where<br>the day takes us.</h2>
+        <span>MADE BY XAL — BANDUNG, 2026</span>
+      </footer>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
